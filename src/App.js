@@ -1,12 +1,12 @@
+import Header from './components/Header';
+import Dashboard from './components/Dashboard';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hi there.
-        </p>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+    </>
   );
 }
 

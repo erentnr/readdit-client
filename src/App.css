@@ -1,0 +1,102 @@
+.header {
+  background: #ffffff;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background-color: #edeff1;
+}
+
+.logo {
+  margin: 20px 40px;
+}
+
+.menu {
+  margin: 20px 30px;
+}
+
+.menu-item {
+  padding: 5px;
+  margin: 5px;
+}
+
+.main {
+  width: 300px;
+  height: auto;
+  margin: 5vh auto;
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid #edeff1;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.main form {
+  padding: 8px 0;
+  margin: 8px 0;
+}
+
+.main form input {
+  width: 80%;
+  padding: 8px 10px;
+  margin: 8px 10%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fcfcfb;
+}
+
+.main form button {
+  width: 80%;
+  padding: 8px 10px;
+  margin: 8px 10%;
+  background-color: #0079d3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main form button:hover {
+  background-color: #1484d7;
+}
+
+.form-type {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.form-type input {
+  cursor:pointer;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background-color: #0079d3;
+  color: #ffffff;
+}
+
+.form-type input:hover {
+  background-color: #1484d7;
+  color: #ffffff;
+}
+
+.form-type input:disabled {
+  cursor:auto;
+  background-color: #ffffff;
+  color: #0079d3;
+}
