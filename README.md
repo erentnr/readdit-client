@@ -4,7 +4,7 @@ Frontend Service of READDIT -- daily hot posts from your favourite subreddits.
 
 ## Tech
 
-React, Material-UI
+React
 
 ## Installation
 
